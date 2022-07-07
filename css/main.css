@@ -9,13 +9,84 @@ body {
 }
 
 .box {
-  margin:  60px auto;
+  margin: 60px auto;
   width: 400px;
   height: 600px;
-  background-color: aqua;
+  background-color: rgb(92, 92, 92);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.box__top {
+  padding: 8px;
 }
 .box__akaunt {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.basc__img {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.yusername {
+  color: aliceblue;
+}
+
+.akaunt__img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.box__main {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  background-image: url(../img/bacraund_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.battom__box-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.input__bootom{
+  height: 40px;
+  width: 100%;
+ border: none;
+ outline: none;
+ border-radius: 6px;
+ margin-right: 5px;
+ font-size: 18px;
+ line-height: 20px;
+ padding-left: 10px;
+}
+
+.text__chat {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  color: azure;
+  position: relative;
+  
+}
+
+.name__b{
+  
+  justify-content: flex-end;
+  margin-left: 130px;
+  
+  
+
 }
